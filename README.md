@@ -8,7 +8,7 @@ Be sure to update, or remove, the admin secret [sealed-secret.yaml](helm/templat
 
 Modify the files in [values.yaml](helm/values.yaml) to customize to your environment.  
 
-``
+```
 namespace: your-custom-namespace
 storageClassName: your-storage-class
 
