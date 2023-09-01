@@ -1,0 +1,10 @@
+namespace: k8-pihole
+storageClassName: synology-iscsi-storage-ext4
+
+timeZone: "America/New_York"
+dnsServers: "10.0.10.1;10.0.20.1"
+
+ingressDns: pihole.hibbard.dev
+ingressTlsSecret: tls-hibbard-dev-wildcard
+
+metallbIP: "10.0.20.250/32"

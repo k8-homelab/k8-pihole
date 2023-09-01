@@ -1,0 +1,18 @@
+apiVersion: v2
+name: k8-pihole
+description: Deploy pihole service
+
+type: application
+version: 0.1.0
+appVersion: v0.0.01
+
+keywords:
+- homelab
+- pihole
+- dns
+
+home: https://github.com/k8-homelab/k8-pihole
+
+maintainers:
+- name: Tim Hibbard
+  email: vptimmy@gmail.com
