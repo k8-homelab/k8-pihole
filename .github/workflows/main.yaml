@@ -31,4 +31,4 @@ jobs:
             --upsert
             --sync-policy auto
             --dest-server https://kubernetes.default.svc
-            --dest-namespace: k8-pihole
+            --dest-namespace k8-pihole
